@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="270572d9-6d1d-403f-8a86-4c3601673aa2">
+  <name>Задача2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача2</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6059c9bf-3550-4f0e-ba96-91b6e96de0bb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5d0ec50d-c196-493a-990d-44101d5a51d8"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="442c007d-c294-4a7a-88f6-300ecccc05ac"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="15fd282a-8e3e-49ee-938a-0f0616559728"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a628ab28-0525-4bfb-a056-a6aa562c0be3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a4aa19e1-6b73-4813-b291-fb86a1de9dab"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="30b6b63e-04dc-4368-b2fb-790bed1f437a"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="fb22203d-0462-49ea-b40e-9eac0a8afffd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Основная</subsystems>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <constants>Constant.Организация</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.Приход</documents>
+  <documents>Document.Расход</documents>
+</mdclass:Configuration>

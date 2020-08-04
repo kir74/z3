@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c14e18c-fab6-4af2-88b3-0b78c0c168e0">
+  <name>Основная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Document.Приход</content>
+  <content>Document.Расход</content>
+  <content>Role.Администратор</content>
+  <content>CommonModule.РаботаСДокументами</content>
+  <content>DefinedType.Количество</content>
+  <content>DefinedType.Цена</content>
+  <content>DefinedType.Сумма</content>
+</mdclass:Subsystem>
