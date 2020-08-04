@@ -47,4 +47,6 @@
   <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.Приход</documents>
   <documents>Document.Расход</documents>
+  <reports>Report.Остатки</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>

@@ -16,4 +16,5 @@
   <content>DefinedType.Количество</content>
   <content>DefinedType.Цена</content>
   <content>DefinedType.Сумма</content>
+  <content>Report.Остатки</content>
 </mdclass:Subsystem>

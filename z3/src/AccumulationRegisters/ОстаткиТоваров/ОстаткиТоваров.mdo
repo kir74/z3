@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc772d2-3aa3-439d-9b41-9121126c0b50">
+  <producedTypes>
+    <selectionType typeId="ead4f897-0467-4f3d-8df8-bdabe81011f9" valueTypeId="e1bcde63-12a1-4795-80f9-d3b2fc8015ab"/>
+    <listType typeId="de45af6e-3f82-4211-8208-729652de1711" valueTypeId="58056d17-b30b-4209-ab6c-a9ceb95166b8"/>
+    <managerType typeId="17ad0d56-7782-418f-9ad1-53bec16183dc" valueTypeId="a7cebe51-d60c-4de0-8a40-cefb52361f01"/>
+    <recordSetType typeId="16a0d751-8117-4694-8808-2807a4221c62" valueTypeId="7e4f81cc-9e52-4ade-85bb-4c30353b21b5"/>
+    <recordKeyType typeId="d762474b-c80b-4b3b-9ed9-12f50bca37d7" valueTypeId="74617952-6691-43c2-b015-64a5b3fd2e6b"/>
+    <recordType typeId="eb80d74e-842b-4654-8bcc-4031b0827599" valueTypeId="1cacc5b2-8af3-45af-86d1-5884e32833c0"/>
+  </producedTypes>
+  <name>ОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="81dffea7-9b24-4016-adbe-840e99637044">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6be9436b-743e-4361-8438-86d3f8b1545d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4e1127c0-a867-4cb6-afdf-75fc1a43b765">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Приход</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
