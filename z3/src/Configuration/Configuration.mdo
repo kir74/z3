@@ -41,6 +41,7 @@
   <definedTypes>DefinedType.Цена</definedTypes>
   <definedTypes>DefinedType.Сумма</definedTypes>
   <constants>Constant.Организация</constants>
+  <constants>Constant.Константа</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
