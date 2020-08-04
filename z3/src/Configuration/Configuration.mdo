@@ -43,6 +43,7 @@
   <constants>Constant.Организация</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.Приход</documents>
   <documents>Document.Расход</documents>
 </mdclass:Configuration>
